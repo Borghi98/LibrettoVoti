@@ -24,5 +24,8 @@ public class TestLibretto {
 		
 		Libretto libVenticinque = libretto.votiUguali(25);
 		System.out.println(libVenticinque);
+		
+		Voto corsoCercato = libretto.cercaCorso("Informatica");
+		System.out.println(corsoCercato);
 	}
 }
